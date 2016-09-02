@@ -1,0 +1,261 @@
+ope ansible_ssh_host=atropera101z.prod.jp.local
+
+rel ansible_ssh_host=atrrelease101z.prod.jp.local
+
+[bch1]
+bch101 ansible_ssh_host=btrbatch101z.prod.jp.local
+
+[bch2]
+bch201 ansible_ssh_host=btrbatch201z.prod.jp.local
+
+[bch3]
+bch301 ansible_ssh_host=btrbatch301z.prod.jp.local
+bch302 ansible_ssh_host=btrbatch302z.prod.jp.local
+
+[bchp]
+bchp101 ansible_ssh_host=btrpkg101z.prod.jp.local
+bchp102 ansible_ssh_host=btrpkg102z.prod.jp.local
+
+[bch:children]
+bch1
+bch2
+bch3
+bchp
+
+[smtp]
+smtp101 ansible_ssh_host=mtrtrvsmtp101z.prod.jp.local
+smtp102 ansible_ssh_host=mtrtrvsmtp102z.prod.jp.local
+
+[bookjp]
+bookjp101 ansible_ssh_host=atrbookjp101z.prod.jp.local
+bookjp102 ansible_ssh_host=atrbookjp102z.prod.jp.local
+bookjp103 ansible_ssh_host=atrbookjp103z.prod.jp.local
+
+[bookos]
+bookos101 ansible_ssh_host=atrbookos101z.prod.jp.local
+bookos102 ansible_ssh_host=atrbookos102z.prod.jp.local
+bookos103 ansible_ssh_host=atrbookos103z.prod.jp.local
+
+[inv]
+inv101 ansible_ssh_host=atrinvcore101z.prod.jp.local
+inv102 ansible_ssh_host=atrinvcore102z.prod.jp.local
+inv103 ansible_ssh_host=atrinvcore103z.prod.jp.local
+inv104 ansible_ssh_host=atrinvcore104z.prod.jp.local
+inv105 ansible_ssh_host=atrinvcore105z.prod.jp.local
+inv106 ansible_ssh_host=atrinvcore106z.prod.jp.local
+inv107 ansible_ssh_host=atrinvcore107z.prod.jp.local
+inv108 ansible_ssh_host=atrinvcore108z.prod.jp.local
+inv109 ansible_ssh_host=atrinvcore109z.prod.jp.local
+inv110 ansible_ssh_host=atrinvcore110z.prod.jp.local
+inv111 ansible_ssh_host=atrinvcore111z.prod.jp.local
+inv112 ansible_ssh_host=atrinvcore112z.prod.jp.local
+inv113 ansible_ssh_host=atrinvcore113z.prod.jp.local
+inv114 ansible_ssh_host=atrinvcore114z.prod.jp.local
+inv115 ansible_ssh_host=atrinvcore115z.prod.jp.local
+inv116 ansible_ssh_host=atrinvcore116z.prod.jp.local
+inv117 ansible_ssh_host=atrinvcore117z.prod.jp.local
+inv118 ansible_ssh_host=atrinvcore118z.prod.jp.local
+inv119 ansible_ssh_host=atrinvcore119z.prod.jp.local
+inv120 ansible_ssh_host=atrinvcore120z.prod.jp.local
+
+[invlst]
+invlst101 ansible_ssh_host=atrinvcorelstnr101z.prod.jp.local
+invlst102 ansible_ssh_host=atrinvcorelstnr102z.prod.jp.local
+invlst103 ansible_ssh_host=atrinvcorelstnr103z.prod.jp.local
+invlst104 ansible_ssh_host=atrinvcorelstnr104z.prod.jp.local
+invlst105 ansible_ssh_host=atrinvcorelstnr105z.prod.jp.local
+invlst106 ansible_ssh_host=atrinvcorelstnr106z.prod.jp.local
+
+[web]
+web101 ansible_ssh_host=wtrweb101z.prod.jp.local
+web102 ansible_ssh_host=wtrweb102z.prod.jp.local
+web103 ansible_ssh_host=wtrweb103z.prod.jp.local
+web104 ansible_ssh_host=wtrweb104z.prod.jp.local
+
+[search]
+search101 ansible_ssh_host=wtrsearch101z.prod.jp.local
+search102 ansible_ssh_host=wtrsearch102z.prod.jp.local
+search103 ansible_ssh_host=wtrsearch103z.prod.jp.local
+search104 ansible_ssh_host=wtrsearch104z.prod.jp.local
+search105 ansible_ssh_host=wtrsearch105z.prod.jp.local
+search106 ansible_ssh_host=wtrsearch106z.prod.jp.local
+search107 ansible_ssh_host=wtrsearch107z.prod.jp.local
+search108 ansible_ssh_host=wtrsearch108z.prod.jp.local
+search109 ansible_ssh_host=wtrsearch109z.prod.jp.local
+search110 ansible_ssh_host=wtrsearch110z.prod.jp.local
+search111 ansible_ssh_host=wtrsearch111z.prod.jp.local
+search112 ansible_ssh_host=wtrsearch112z.prod.jp.local
+search113 ansible_ssh_host=wtrsearch113z.prod.jp.local
+search114 ansible_ssh_host=wtrsearch114z.prod.jp.local
+search115 ansible_ssh_host=wtrsearch115z.prod.jp.local
+search116 ansible_ssh_host=wtrsearch116z.prod.jp.local
+search117 ansible_ssh_host=wtrsearch117z.prod.jp.local
+search118 ansible_ssh_host=wtrsearch118z.prod.jp.local
+search119 ansible_ssh_host=wtrsearch119z.prod.jp.local
+search120 ansible_ssh_host=wtrsearch120z.prod.jp.local
+search121 ansible_ssh_host=wtrsearch121z.prod.jp.local
+search122 ansible_ssh_host=wtrsearch122z.prod.jp.local
+search123 ansible_ssh_host=wtrsearch123z.prod.jp.local
+search124 ansible_ssh_host=wtrsearch124z.prod.jp.local
+search125 ansible_ssh_host=wtrsearch125z.prod.jp.local
+search126 ansible_ssh_host=wtrsearch126z.prod.jp.local
+search127 ansible_ssh_host=wtrsearch127z.prod.jp.local
+search128 ansible_ssh_host=wtrsearch128z.prod.jp.local
+
+[rwith]
+rwith101 ansible_ssh_host=wtrrwith101z.prod.jp.local
+rwith102 ansible_ssh_host=wtrrwith102z.prod.jp.local
+rwith103 ansible_ssh_host=wtrrwith103z.prod.jp.local
+rwith201 ansible_ssh_host=wtrrwith201z.prod.jp.local
+rwith202 ansible_ssh_host=wtrrwith202z.prod.jp.local
+rwith203 ansible_ssh_host=wtrrwith203z.prod.jp.local
+
+[rsvh]
+rsvh101 ansible_ssh_host=wtrrsvh101z.prod.jp.local
+rsvh102 ansible_ssh_host=wtrrsvh102z.prod.jp.local
+rsvh103 ansible_ssh_host=wtrrsvh103z.prod.jp.local
+rsvh201 ansible_ssh_host=wtrrsvh201z.prod.jp.local
+rsvh202 ansible_ssh_host=wtrrsvh202z.prod.jp.local
+rsvh203 ansible_ssh_host=wtrrsvh203z.prod.jp.local
+
+[rdp]
+rdp101 ansible_ssh_host=wtrrdp101z.prod.jp.local
+rdp102 ansible_ssh_host=wtrrdp102z.prod.jp.local
+rdp103 ansible_ssh_host=wtrrdp103z.prod.jp.local
+rdp104 ansible_ssh_host=wtrrdp104z.prod.jp.local
+rdp105 ansible_ssh_host=wtrrdp105z.prod.jp.local
+rdp201 ansible_ssh_host=wtrrdp201z.prod.jp.local
+rdp202 ansible_ssh_host=wtrrdp202z.prod.jp.local
+rdp203 ansible_ssh_host=wtrrdp203z.prod.jp.local
+rdp204 ansible_ssh_host=wtrrdp204z.prod.jp.local
+rdp205 ansible_ssh_host=wtrrdp205z.prod.jp.local
+rdp206 ansible_ssh_host=wtrrdp206z.prod.jp.local
+rdp207 ansible_ssh_host=wtrrdp207z.prod.jp.local
+
+[ovs]
+ovs101 ansible_ssh_host=wtrovs101z.prod.jp.local 
+ovs102 ansible_ssh_host=wtrovs102z.prod.jp.local 
+ovs103 ansible_ssh_host=wtrovs103z.prod.jp.local 
+
+[mnt]
+mnt101 ansible_ssh_host=wtrmnt101z.prod.jp.local
+mnt102 ansible_ssh_host=wtrmnt102z.prod.jp.local
+mnt201 ansible_ssh_host=wtrmnt201z.prod.jp.local
+mnt202 ansible_ssh_host=wtrmnt202z.prod.jp.local
+
+[mng]
+mng101 ansible_ssh_host=wtrmng101z.prod.jp.local
+mng102 ansible_ssh_host=wtrmng102z.prod.jp.local
+mng103 ansible_ssh_host=wtrmng103z.prod.jp.local
+mng201 ansible_ssh_host=wtrmng201z.prod.jp.local
+mng202 ansible_ssh_host=wtrmng202z.prod.jp.local
+mng203 ansible_ssh_host=wtrmng203z.prod.jp.local
+
+[maui]
+maui101 ansible_ssh_host=wtrmaui101z.prod.jp.local
+maui102 ansible_ssh_host=wtrmaui102z.prod.jp.local
+maui103 ansible_ssh_host=wtrmaui103z.prod.jp.local
+maui104 ansible_ssh_host=wtrmaui104z.prod.jp.local
+maui105 ansible_ssh_host=wtrmaui105z.prod.jp.local
+maui106 ansible_ssh_host=wtrmaui106z.prod.jp.local
+maui107 ansible_ssh_host=wtrmaui107z.prod.jp.local
+maui108 ansible_ssh_host=wtrmaui108z.prod.jp.local
+maui109 ansible_ssh_host=wtrmaui109z.prod.jp.local
+maui110 ansible_ssh_host=wtrmaui110z.prod.jp.local
+
+[kaigai]
+kaigai101 ansible_ssh_host=wtrkaigai101z.prod.jp.local
+kaigai102 ansible_ssh_host=wtrkaigai102z.prod.jp.local
+kaigai103 ansible_ssh_host=wtrkaigai103z.prod.jp.local
+
+[img]
+img101 ansible_ssh_host=wtrimg101z.prod.jp.local
+img102 ansible_ssh_host=wtrimg102z.prod.jp.local
+img103 ansible_ssh_host=wtrimg103z.prod.jp.local
+img104 ansible_ssh_host=wtrimg104z.prod.jp.local
+img105 ansible_ssh_host=wtrimg105z.prod.jp.local
+img106 ansible_ssh_host=wtrimg106z.prod.jp.local
+img107 ansible_ssh_host=wtrimg107z.prod.jp.local
+img108 ansible_ssh_host=wtrimg108z.prod.jp.local
+img109 ansible_ssh_host=wtrimg109z.prod.jp.local
+
+[hotel]
+hotel101 ansible_ssh_host=wtrhotel101z.prod.jp.local
+hotel102 ansible_ssh_host=wtrhotel102z.prod.jp.local
+hotel103 ansible_ssh_host=wtrhotel103z.prod.jp.local
+hotel104 ansible_ssh_host=wtrhotel104z.prod.jp.local
+hotel105 ansible_ssh_host=wtrhotel105z.prod.jp.local
+hotel106 ansible_ssh_host=wtrhotel106z.prod.jp.local
+hotel107 ansible_ssh_host=wtrhotel107z.prod.jp.local
+hotel108 ansible_ssh_host=wtrhotel108z.prod.jp.local
+hotel109 ansible_ssh_host=wtrhotel109z.prod.jp.local
+hotel110 ansible_ssh_host=wtrhotel110z.prod.jp.local
+hotel111 ansible_ssh_host=wtrhotel111z.prod.jp.local
+hotel112 ansible_ssh_host=wtrhotel112z.prod.jp.local
+hotel113 ansible_ssh_host=wtrhotel113z.prod.jp.local
+hotel114 ansible_ssh_host=wtrhotel114z.prod.jp.local
+hotel115 ansible_ssh_host=wtrhotel115z.prod.jp.local
+hotel116 ansible_ssh_host=wtrhotel116z.prod.jp.local
+hotel117 ansible_ssh_host=wtrhotel117z.prod.jp.local
+hotel118 ansible_ssh_host=wtrhotel118z.prod.jp.local
+hotel119 ansible_ssh_host=wtrhotel119z.prod.jp.local
+hotel120 ansible_ssh_host=wtrhotel120z.prod.jp.local
+hotel121 ansible_ssh_host=wtrhotel121z.prod.jp.local
+hotel122 ansible_ssh_host=wtrhotel122z.prod.jp.local
+hotel123 ansible_ssh_host=wtrhotel123z.prod.jp.local
+hotel124 ansible_ssh_host=wtrhotel124z.prod.jp.local
+hotel125 ansible_ssh_host=wtrhotel125z.prod.jp.local
+hotel126 ansible_ssh_host=wtrhotel126z.prod.jp.local
+
+[connect]
+connect101 ansible_ssh_host=wtrconnect101z.prod.jp.local
+connect102 ansible_ssh_host=wtrconnect102z.prod.jp.local
+connect103 ansible_ssh_host=wtrconnect103z.prod.jp.local
+connect104 ansible_ssh_host=wtrconnect104z.prod.jp.local
+connect105 ansible_ssh_host=wtrconnect105z.prod.jp.local
+connect106 ansible_ssh_host=wtrconnect106z.prod.jp.local
+connect107 ansible_ssh_host=wtrconnect107z.prod.jp.local
+connect108 ansible_ssh_host=wtrconnect108z.prod.jp.local
+connect109 ansible_ssh_host=wtrconnect109z.prod.jp.local
+connect110 ansible_ssh_host=wtrconnect110z.prod.jp.local
+connect111 ansible_ssh_host=wtrconnect111z.prod.jp.local
+connect112 ansible_ssh_host=wtrconnect112z.prod.jp.local
+connect113 ansible_ssh_host=wtrconnect113z.prod.jp.local
+connect114 ansible_ssh_host=wtrconnect114z.prod.jp.local
+connect115 ansible_ssh_host=wtrconnect115z.prod.jp.local
+connect116 ansible_ssh_host=wtrconnect116z.prod.jp.local
+connect117 ansible_ssh_host=wtrconnect117z.prod.jp.local
+connect118 ansible_ssh_host=wtrconnect118z.prod.jp.local
+connect119 ansible_ssh_host=wtrconnect119z.prod.jp.local
+connect120 ansible_ssh_host=wtrconnect120z.prod.jp.local
+
+[cars]
+cars101 ansible_ssh_host=wtrcars101z.prod.jp.local
+cars102 ansible_ssh_host=wtrcars102z.prod.jp.local
+cars103 ansible_ssh_host=wtrcars103z.prod.jp.local
+
+[bus]
+bus101 ansible_ssh_host=wtrbus101z.prod.jp.local
+bus102 ansible_ssh_host=wtrbus102z.prod.jp.local
+bus103 ansible_ssh_host=wtrbus103z.prod.jp.local
+
+
+[orsv]
+orsv101 ansible_ssh_host=wtrorsv101z.prod.jp.local
+orsv102 ansible_ssh_host=wtrorsv102z.prod.jp.local
+orsv103 ansible_ssh_host=wtrorsv103z.prod.jp.local
+
+[hmsjp]
+hmsjp101 ansible_ssh_host=wtrhmsjp101z.prod.jp.local
+hmsjp102 ansible_ssh_host=wtrhmsjp102z.prod.jp.local
+hmsjp103 ansible_ssh_host=wtrhmsjp103z.prod.jp.local
+
+[rtms]
+rtms101 ansible_ssh_host=wtrrtms101z.prod.jp.local
+rtms102 ansible_ssh_host=wtrrtms102z.prod.jp.local
+
+[ovsmng]
+ovsmng101 ansible_ssh_host=wtrovsmng101z.prod.jp.local 
+ovsmng102 ansible_ssh_host=wtrovsmng102z.prod.jp.local 
+ovsmng103 ansible_ssh_host=wtrovsmng103z.prod.jp.local 
+

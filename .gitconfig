@@ -1,0 +1,43 @@
+[user]
+	name = pampers
+	email = yoshimasa.hamada@mail.rakuten.com
+[core]
+	#autocrlf = true
+	editor = vim
+	#whitespace = cr-at-eol
+	#precomposeunicode = true
+	#quotepath = off
+[diff]
+	#tool = WinMerge
+[difftool "WinMerge"]
+        #cmd = 'C:/Program Files/WinMerge/WinMergeU.exe' -r -u \"$LOCAL\" \"$REMOTE\"
+[push]
+	default = current
+[colort]
+	ui = auto
+[color]
+	ui = auto
+[alias]
+	ad = add -v -A
+	co = checkout
+	cm = commit -m
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	ld = log --decorate
+	ll = log --pretty=oneline --abbrev-commit
+	dn = diff --name-only
+	dt = difftool --dir-diff
+	dl = difftool --dir-diff master
+	dr = difftool --dir-diff origin/master
+	dd = difftool --dir-diff origin/master...origin/
+	pr = pull --rebase
+	td = for-each-ref --sort=-taggerdate --format='%(taggerdate:iso8601) || %(tag) || %(taggername) || %(subject)' refs/tags
+	fp = fetch --prune
+	cl = reset --hard HEAD
+[merge]
+	ff = false
+[difftool "sourcetree"]
+	#cmd = 'c:/Program Files/WinMerge/WinMergeU.exe' \"$LOCAL\" \"$REMOTE\"
+[pull]
+	rebase = true

@@ -1,0 +1,2 @@
+hosts: bus
+cmd: "grep '15487015_001' /usr/local/var/log/tomcat/bus-manage/wtrbus10?z-bus*"

@@ -1,0 +1,21 @@
+- hosts: '{{ hosts }}'
+  gather_facts: False
+
+  tasks:
+  - name: execute command
+    shell: '{{ cmd }}'
+    changed_when: False
+    register: result
+    ignore_errors: True
+
+  - name: Error Check
+    debug: var=result.stderr
+    when: result.stderr != ''
+
+  - name: Check if the result of the grep command exists
+    debug: msg='Search Text Is Not Found !!'
+    when: result.rc == 1
+
+  - name: Show the result
+    debug: var=result.stdout_lines
+    when: result.rc == 0
