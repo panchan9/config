@@ -1,0 +1,1469 @@
+# この viminfo ファイルは Vim 7.4 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/\<Trash\>
+
+# 最後の Substitute 検索パターン:
+~MSle0&\\\\
+
+# 最後に置換された文字列:
+$
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
+:n
+:q!
+:wq
+:%s!\\\\!/!gc
+:%s!\\!/!gc
+:sp aurelia_project/environments/dev.js
+:w
+:e child-router.html
+:sp child-router.js
+:e app.js
+:sp app.html
+:e app.html
+:e nav-bar.html
+:e users.js
+:sp app.js
+:sp user.html
+:sp app.html.bk
+:sp app.js.bk
+:bnex
+:bprevious
+:ls
+:previous
+:e src/app.html
+:sp index.html
+:sp ../aurelia_project/aurelia.json
+::w
+:sp src/app.html
+:set paste
+:vsp place-picker.js
+:vi app.html
+:sp app.css
+:set pastetoggle
+:vsp app.js
+:sp place-picker.html
+:;
+:N
+:p
+:sp style.css
+:vsp place-picker.html
+:sp google-maps-loader.js
+:vsp google-maps-loader.js
+:vsp load-google-maps.js
+:vsp 
+:sp spot-list.html
+:sp findechoes/src/place-picker.html
+:vsp web-api.js
+:n
+:sp ./index.html
+:sp src/main.js
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+? @$
+? \<Trash\>
+??\a
+?/logg
+? \s\+$
+?/bundles
+?/build
+? \\\\
+? \\
+?/\\
+?/node
+?/browse
+?/git
+?/font
+? \<bindable\>
+? \<constructor\>
+?/fetch
+? \<HttpClient\>
+?/(
+? \<from\>
+?/frame
+? \<awesome\>
+?/css
+? \<node_modules\>
+? \<bootstrap\>
+? \<resources\>
+?/dependencies
+? \<require\>
+?/router
+? \<config\>
+? \<router\>
+?/collapse
+? \<myChatAll\>
+? \<getElemntById\>
+? \<document\>
+?/paste
+? \<stagger\>
+? \.
+? \<opacity\>
+?/fade-in
+? \<fadeIn\>
+?/repe
+?/reap
+?/keyframes
+?/fade-
+?/fade
+?/au-anima
+?/appeared
+?/ser
+? \<location\>
+
+# 式 項目の履歴 (新しいものから古いものへ):
+=-
+=i
+=0
+=1
+=32*8
+=6*35
+=87*38
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+@y
+@n
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+""0	CHAR	0
+	.
+"1	LINE	0
+	    this.router;
+"2	LINE	0
+	  }
+"3	LINE	0
+	  constructor() {
+"4	LINE	0
+	  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle Navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">
+	        <i class="fa fa-home"></i>
+	        <span>${router.title}</span>
+	      </a>
+	    </div>
+	
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li repeat.for="row of router.navigation" class="${row.isActive ? active : ''}">
+	          <a href.bind="row.href">${row.title}</a>
+	        </li>
+	      </ul>
+	
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="loader" if.bind="router.isNavigating">
+	          <i class="fa fa-spinner fa-spin fa-2x"></i>
+	        </li>
+	      </ul>
+	    </div>
+	  </nav>
+"5	LINE	0
+	      </div>
+"6	LINE	0
+	      </
+"7	LINE	0
+	
+"8	LINE	0
+	
+"9	BLOCK	1
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+"a	LINE	0
+	
+	        // TODO: Cache this regexp for certain depths.
+	            // TODO: No matching end code found - warn!
+"b	CHAR	0
+	I=0n) ^
+"c	LINE	0
+	require 'practical_vim/more'
+"d	LINE	0
+	0f.r)wvUj
+"j	CHAR	0
+	kj
+"q	CHAR	0
+	0f.r)w~j
+"v	CHAR	0
+	jjjjjjjjjj
+"-@	CHAR	0
+	.
+
+# ファイルマーク:
+'0  1  0  ~/.idlerc/recent-files.lst
+'1  1  0  ~/ll
+'2  1  0  ~/.DS_Store
+'3  91  2  ~/.bashrc
+'4  295  0  ~/.git-prompt.sh
+'5  1  0  ~/.git-pro
+'6  1  0  ~/config/README.md
+'7  51  0  ~/config/utils/get_create_statement.sh
+'8  1  0  ~/dev/aurelia/learning-aurelia-sample/chapter-2/app/src/main.js
+'9  1  0  ~/dev/aurelia/learning-aurelia-sample/chapter-3/app/src/app.js
+
+# ジャンプリスト (新しいものが先):
+-'  1  0  ~/.idlerc/recent-files.lst
+-'  1  0  ~/ll
+-'  1  0  ~/.DS_Store
+-'  1  0  ~/.CFUserTextEncoding
+-'  1  0  ~/..
+-'  10  1  ~/
+-'  1  0  ~/
+-'  91  2  ~/.bashrc
+-'  295  0  ~/.git-prompt.sh
+-'  1  0  ~/.git-prompt.sh
+-'  1  0  ~/.git-pro
+-'  1  0  ~/config/README.md
+-'  51  0  ~/config/utils/get_create_statement.sh
+-'  1  0  ~/config/utils/get_create_statement.sh
+-'  1  0  ~/dev/aurelia/learning-aurelia-sample/chapter-2/app/src/main.js
+-'  1  0  ~/dev/aurelia/learning-aurelia-sample/chapter-3/app/src/app.js
+-'  17  27  ~/dev/aurelia/learning-aurelia-sample/chapter-3/app/src/main.js
+-'  1  0  ~/dev/aurelia/learning-aurelia-sample/chapter-3/app/src/main.js
+-'  119  32  ~/dev/aurelia/learning-aurelia/aurelia_project/aurelia.json
+-'  120  20  ~/dev/aurelia/learning-aurelia/aurelia_project/aurelia.json
+-'  56  3  ~/dev/aurelia/learning-aurelia/aurelia_project/aurelia.json
+-'  54  3  ~/dev/aurelia/learning-aurelia/aurelia_project/aurelia.json
+-'  1  0  ~/dev/aurelia/learning-aurelia/aurelia_project/aurelia.json
+-'  6  0  ~/dev/aurelia/learning-aurelia/index.html
+-'  1  0  ~/dev/aurelia/learning-aurelia/index.html
+-'  47  0  ~/dev/aurelia/learning-aurelia-sample/chapter-3/samples/binding-behaviors/aurelia_project/aurelia.json
+-'  30  18  ~/dev/aurelia/learning-aurelia-sample/chapter-3/samples/binding-behaviors/aurelia_project/aurelia.json
+-'  18  19  ~/dev/aurelia/learning-aurelia-sample/chapter-3/samples/binding-behaviors/aurelia_project/aurelia.json
+-'  22  18  ~/dev/aurelia/learning-aurelia-sample/chapter-3/samples/binding-behaviors/aurelia_project/aurelia.json
+-'  1  0  ~/dev/aurelia/learning-aurelia-sample/chapter-3/samples/binding-behaviors/aurelia_project/aurelia.json
+-'  8  0  ~/dev/aurelia/learning-aurelia-sample/chapter-2/app/index.html
+-'  1  0  ~/dev/aurelia/learning-aurelia-sample/chapter-2/app/index.html
+-'  5  0  ~/dev/aurelia/learning-aurelia/src/main.js
+-'  16  0  ~/dev/aurelia/learning-aurelia/src/main.js
+-'  78  35  ~/.bashrc
+-'  1  0  ~_/
+-'  10  0  ~/dev/aurelia/learning-aurelia/src/main.js
+-'  1  0  ~/dev/aurelia/learning-aurelia/src/main.js
+-'  32  4  ~/dev/aurelia/learning-aurelia/aurelia_project/tasks/run.js
+-'  17  2  ~/dev/aurelia/learning-aurelia/aurelia_project/tasks/run.js
+-'  2  25  ~/dev/aurelia/learning-aurelia/aurelia_project/tasks/run.js
+-'  1  0  ~/dev/aurelia/learning-aurelia/aurelia_project/tasks/run.js
+-'  76  6  ~/.bashrc
+-'  69  31  ~/.bashrc
+-'  79  56  ~/.bashrc
+-'  80  2  ~/.bashrc
+-'  81  2  ~/.bashrc
+-'  82  2  ~/.bashrc
+-'  83  2  ~/.bashrc
+-'  68  13  ~/.bashrc
+-'  65  40  ~/.bashrc
+-'  64  13  ~/.bashrc
+-'  7  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  11  0  ~/dev/aurelia/sample-app/src/child-router.js
+-'  1  26  ~/dev/aurelia/sample-app/src/nav-bar.html
+-'  6  10  ~/dev/aurelia/sample-app/src/nav-bar.html
+-'  4  26  ~/dev/aurelia/sample-app/src/app.html
+-'  3  17  ~/dev/aurelia/sample-app/src/app.html
+-'  14  0  ~/dev/aurelia/sample-app/src/users.js
+-'  12  0  ~/dev/aurelia/sample-app/src/users.js
+-'  10  0  ~/dev/aurelia/sample-app/src/app.js
+-'  4  2  ~/dev/aurelia/sample-app/src/nav-bar.js
+-'  3  0  ~/dev/aurelia/sample-app/src/nav-bar.js
+-'  2  0  ~/dev/aurelia/sample-app/src/users.js
+-'  1  0  ~/dev/aurelia/sample-app/src/users.js
+-'  17  9  ~/dev/aurelia/sample-app/src/user.html
+-'  23  39  ~/dev/aurelia/sample-app/src/user.js
+-'  25  2  ~/dev/aurelia/sample-app/src/user.js
+-'  1  0  ~/dev/aurelia/sample-app/src/user.js
+-'  2  0  ~/dev/aurelia/sample-app/src/app.js
+-'  5  0  ~/dev/aurelia/sample-app/src/app.html
+-'  2  0  ~/dev/aurelia/sample-app/src/app.html
+-'  1  0  ~/dev/aurelia/sample-app/src/app.html
+-'  12  2  ~/dev/aurelia/sample-app/src/app.html
+-'  2  0  ~/dev/aurelia/sample-app/src/app.html.bk
+-'  3  2  ~/dev/aurelia/sample-app/src/app.html.bk
+-'  1  0  ~/dev/aurelia/sample-app/src/app.html.bk
+-'  32  22  ~/dev/firebase/aurelia-firebase/src/app.js
+-'  1  0  ~/dev/firebase/aurelia-firebase/src/app.js
+-'  6  0  ~/dev/firebase/aurelia-firebase/src/app.html
+-'  1  0  ~/dev/firebase/aurelia-firebase/src/app.html
+-'  19  50  ~/dev/firebase/aurelia-firebase/index.html
+-'  2  85  ~/dev/firebase/aurelia-firebase/src/app.html
+-'  11  7  ~/dev/firebase/aurelia-firebase/src/app.html
+-'  18  0  ~/dev/firebase/aurelia-firebase/index.html
+-'  21  0  ~/dev/firebase/aurelia-firebase/index.html
+-'  3  2  ~/dev/firebase/aurelia-firebase/src/app.js
+-'  63  0  ~/dev/firebase/aurelia-firebase/src/app.js
+-'  2  0  ~/dev/firebase/aurelia-firebase/src/app.js
+-'  8  0  ~/dev/firebase/aurelia-firebase/index.html
+-'  15  8  ~/dev/firebase/aurelia-firebase/index.html
+-'  1  0  ~/dev/firebase/aurelia-firebase/index.html
+-'  88  36  ~/dev/firebase/myFirstFireBase/public/index.html
+-'  86  42  ~/dev/firebase/myFirstFireBase/public/index.html
+-'  93  8  ~/dev/firebase/myFirstFireBase/public/index.html
+-'  1  0  ~/.git-pro
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/.idlerc/recent-files.lst
+	"	1	0
+
+> ~/ll
+	"	1	0
+
+> ~/.CFUserTextEncoding
+	"	1	0
+
+> ~/.DS_Store
+	"	1	0
+
+> ~/.bashrc
+	"	91	2
+
+> ~/.git-prompt.sh
+	"	295	0
+
+> ~/.git-pro
+	"	1	0
+
+> ~/config/README.md
+	"	1	0
+
+> ~/config/utils/get_create_statement.sh
+	"	51	0
+
+> ~/dev/aurelia/learning-aurelia-sample/chapter-2/app/src/main.js
+	"	1	0
+
+> ~/dev/aurelia/learning-aurelia-sample/chapter-3/app/src/app.js
+	"	1	0
+
+> ~/dev/aurelia/learning-aurelia-sample/chapter-3/app/src/main.js
+	"	17	27
+
+> ~/dev/aurelia/learning-aurelia/aurelia_project/aurelia.json
+	"	119	32
+	^	119	33
+	.	119	32
+	+	120	0
+	+	119	32
+
+> ~/dev/aurelia/learning-aurelia/index.html
+	"	6	0
+
+> ~/dev/aurelia/learning-aurelia-sample/chapter-3/samples/binding-behaviors/aurelia_project/aurelia.json
+	"	47	0
+	.	47	0
+	+	18	0
+	+	24	0
+	+	30	0
+	+	39	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+
+> ~/dev/aurelia/learning-aurelia-sample/chapter-2/app/index.html
+	"	8	0
+
+> ~/dev/aurelia/learning-aurelia/src/main.js
+	"	5	0
+	.	10	0
+	+	10	0
+
+> ~/dev/aurelia/learning-aurelia/aurelia_project/environments/dev.js
+	"	2	0
+
+> ~/dev/aurelia/learning-aurelia/aurelia_project/tasks/run.js
+	"	32	4
+
+> ~/dev/aurelia/sample-app/src/nav-bar.html
+	"	1	26
+	^	1	27
+	.	1	26
+	+	32	0
+	+	14	0
+	+	24	8
+	+	23	0
+	+	32	0
+	+	31	0
+	+	19	81
+	+	1	26
+
+> ~/dev/aurelia/sample-app/src/app.html
+	"	4	30
+	^	4	31
+	.	4	30
+	+	12	0
+	+	12	18
+	+	12	0
+	+	12	0
+	+	12	44
+	+	12	61
+	+	12	52
+	+	12	83
+	+	12	0
+	+	12	33
+	+	12	0
+	+	12	75
+	+	12	88
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	21
+	+	12	0
+	+	2	29
+	+	5	49
+	+	11	0
+	+	7	0
+	+	5	0
+	+	3	17
+	+	4	42
+	+	7	0
+	+	6	41
+	+	4	30
+
+> ~/dev/aurelia/sample-app/src/app.js
+	"	8	114
+	^	8	115
+	.	8	114
+	+	4	0
+	+	9	0
+	+	4	0
+	+	13	0
+	+	16	38
+	+	17	0
+	+	16	36
+	+	2	0
+	+	2	101
+	+	2	8
+	+	2	0
+	+	2	0
+	+	2	0
+	+	7	94
+	+	8	114
+
+> ~/dev/aurelia/sample-app/src/child-router.js
+	"	11	0
+	^	13	1
+	.	13	0
+	+	9	0
+	+	13	0
+
+> ~/dev/aurelia/sample-app/src/child-router.html
+	"	17	10
+	^	17	11
+	.	17	0
+	+	17	0
+
+> ~/dev/aurelia/sample-app/aurelia_project/aurelia.json
+	"	131	21
+	^	101	33
+	.	101	32
+	+	128	11
+	+	120	18
+	+	134	17
+	+	134	48
+	+	134	0
+	+	134	11
+	+	123	35
+	+	134	35
+	+	127	35
+	+	134	49
+	+	134	0
+	+	134	52
+	+	134	0
+	+	133	11
+	+	132	33
+	+	131	49
+	+	132	24
+	+	101	32
+
+> ~/dev/aurelia/sample-app/src/nav-bar.js
+	"	2	0
+	^	4	17
+	.	4	12
+	+	3	21
+	+	5	0
+	+	4	14
+	+	5	0
+	+	4	14
+	+	4	15
+	+	1	43
+	+	4	0
+	+	5	0
+	+	4	12
+
+> ~/dev/aurelia/sample-app/src/users.js
+	"	14	0
+	.	12	0
+	+	12	0
+
+> ~/dev/aurelia/sample-app/src/user.js
+	"	13	0
+	^	12	2
+	.	13	0
+	+	4	20
+	+	27	0
+	+	6	6
+	+	27	0
+	+	6	14
+	+	6	0
+	+	27	0
+	+	17	12
+	+	19	0
+	+	27	0
+	+	27	0
+	+	22	35
+	+	25	0
+	+	26	0
+	+	8	46
+	+	3	0
+	+	1	0
+	+	3	0
+	+	4	0
+	+	6	0
+	+	9	0
+	+	5	43
+	+	11	0
+	+	2	2
+	+	1	2
+	+	2	0
+	+	12	45
+	+	2	0
+	+	13	0
+
+> ~/dev/aurelia/sample-app/src/user.html
+	"	17	9
+	^	19	11
+	.	19	0
+	+	19	0
+
+> ~/dev/aurelia/sample-app/src/app.html.bk
+	"	2	0
+	^	2	0
+	.	3	0
+	+	2	0
+	+	3	0
+
+> ~/dev/aurelia/sample-app/src/app.js.bk
+	"	1	0
+
+> ~/dev/firebase/aurelia-firebase/src/app.js
+	"	32	22
+	^	39	23
+	.	32	0
+	+	1	13
+	+	14	0
+	+	63	0
+	+	10	22
+	+	13	6
+	+	20	43
+	+	27	0
+	+	38	29
+	+	41	62
+	+	51	6
+	+	52	0
+	+	56	42
+	+	62	0
+	+	3	0
+	+	1	0
+	+	7	25
+	+	11	37
+	+	12	0
+	+	11	22
+	+	12	22
+	+	11	36
+	+	12	28
+	+	28	25
+	+	35	23
+	+	38	0
+	+	39	23
+	+	58	29
+	+	44	0
+	+	48	19
+	+	49	0
+	+	50	0
+	+	48	26
+	+	49	29
+	+	50	27
+	+	32	0
+	+	32	22
+	+	35	23
+	+	39	22
+	+	32	0
+
+> ~/dev/firebase/aurelia-firebase/index.html
+	"	16	40
+	^	19	51
+	.	19	50
+	+	21	8
+	+	21	8
+	+	21	0
+	+	21	0
+	+	21	0
+	+	20	9
+	+	8	0
+	+	7	0
+	+	8	0
+	+	21	0
+	+	19	50
+
+> ~/dev/firebase/aurelia-firebase/src/app.html
+	"	6	0
+	^	11	8
+	.	11	0
+	+	4	112
+	+	11	0
+
+> ~/dev/aurelia/findechoes/src/google-maps-loader.js
+	"	1	0
+	^	28	10
+	.	95	11
+	+	6	68
+	+	12	0
+	+	3	27
+	+	3	0
+	+	3	8
+	+	3	0
+	+	3	30
+	+	3	4
+	+	3	0
+	+	3	0
+	+	5	0
+	+	82	0
+	+	3	0
+	+	3	8
+	+	3	0
+	+	3	56
+	+	3	0
+	+	3	0
+	+	4	23
+	+	82	6
+	+	82	0
+	+	12	0
+	+	82	0
+	+	8	0
+	+	10	40
+	+	82	0
+	+	3	0
+	+	5	26
+	+	1	0
+	+	3	0
+	+	59	0
+	+	13	0
+	+	59	2
+	+	67	2
+	+	82	0
+	+	14	11
+	+	15	26
+	+	10	10
+	+	16	27
+	+	17	20
+	+	17	0
+	+	17	16
+	+	21	12
+	+	14	35
+	+	60	27
+	+	68	30
+	+	71	15
+	+	77	10
+	+	78	10
+	+	23	58
+	+	78	27
+	+	10	0
+	+	9	29
+	+	16	20
+	+	17	0
+	+	59	0
+	+	59	25
+	+	30	0
+	+	15	20
+	+	21	34
+	+	32	68
+	+	36	68
+	+	33	69
+	+	37	40
+	+	40	22
+	+	73	27
+	+	74	18
+	+	65	0
+	+	43	8
+	+	92	53
+	+	88	31
+	+	96	0
+	+	95	25
+	+	59	0
+	+	87	38
+	+	51	44
+	+	55	59
+	+	59	0
+	+	56	45
+	+	92	0
+	+	91	16
+	+	57	0
+	+	58	7
+	+	49	46
+	+	58	8
+	+	25	0
+	+	88	24
+	+	34	0
+	+	33	30
+	+	35	0
+	+	34	54
+	+	21	30
+	+	19	0
+	+	15	48
+	+	20	27
+	+	28	0
+	+	95	11
+
+> ~/dev/firebase/myFirstFireBase/public/index.html
+	"	27	23
+	^	89	31
+	.	89	30
+	+	72	0
+	+	59	0
+	+	60	0
+	+	82	0
+	+	79	14
+	+	82	0
+	+	95	0
+	+	99	8
+	+	92	35
+	+	101	12
+	+	96	0
+	+	88	32
+	+	90	40
+	+	92	0
+	+	93	0
+	+	90	30
+	+	85	63
+	+	87	0
+	+	99	0
+	+	100	8
+	+	90	29
+	+	88	32
+	+	90	0
+	+	86	42
+	+	88	36
+	+	89	30
+
+> ~/dev/aurelia/sample-app/src/welcome.html
+	"	1	0
+
+> ~/dev/aurelia/sample-app/src/welcome.js
+	"	1	19
+	^	1	20
+	.	1	19
+	+	1	19
+
+> ~/dev/aurelia/sample-app/index.html
+	"	1	0
+
+> ~/dev/aurelia/sample-app/src/main.js
+	"	1	0
+
+> ~/dev/aurelia/sample-app/src/app.
+	"	1	0
+
+> ~/dev/aurelia/findechoes/src/app.js
+	"	8	0
+
+> ~/.vimrc
+	"	195	0
+	.	196	0
+	+	196	0
+	+	197	0
+	+	196	0
+
+> ~/dev/aurelia/findechoes/src/place-picker.js
+	"	19	18
+	^	29	67
+	.	20	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	12
+	+	37	0
+	+	37	2
+	+	37	6
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	8
+	+	37	0
+	+	37	8
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	44
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	14
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	34
+	+	37	37
+	+	37	0
+	+	37	0
+	+	37	48
+	+	37	6
+	+	37	1
+	+	37	15
+	+	37	0
+	+	37	26
+	+	37	38
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	1	0
+	+	37	46
+	+	37	21
+	+	37	16
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	7
+	+	37	18
+	+	37	35
+	+	37	18
+	+	37	0
+	+	37	28
+	+	37	0
+	+	37	0
+	+	37	27
+	+	37	0
+	+	37	0
+	+	37	0
+	+	37	20
+	+	37	32
+	+	37	0
+	+	37	0
+	+	37	0
+	+	2	0
+	+	12	9
+	+	9	33
+	+	15	71
+	+	15	0
+	+	16	77
+	+	15	0
+	+	15	0
+	+	15	0
+	+	16	0
+	+	26	0
+	+	26	0
+	+	14	24
+	+	24	20
+	+	25	40
+	+	17	61
+	+	29	4
+	+	30	0
+	+	29	40
+	+	17	0
+	+	17	0
+	+	29	74
+	+	29	0
+	+	28	20
+	+	29	66
+	+	20	0
+	p	1	7
+
+> ~/dev/aurelia/practice-au-animations/src/app.js
+	"	26	0
+	^	28	26
+	.	28	25
+	+	16	0
+	+	16	18
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	17	41
+	+	32	0
+	+	32	1
+	+	16	0
+	+	16	0
+	+	32	0
+	+	16	0
+	+	32	0
+	+	16	1
+	+	16	0
+	+	16	0
+	+	16	0
+	+	32	0
+	+	18	0
+	+	32	12
+	+	32	0
+	+	16	0
+	+	31	0
+	+	31	0
+	+	2	18
+	+	15	0
+	+	23	30
+	+	22	102
+	+	23	59
+	+	24	26
+	+	29	50
+	+	30	0
+	+	31	0
+	+	21	25
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	14	0
+	+	3	1
+	+	29	0
+	+	28	25
+
+> ~/dev/aurelia/practice-au-animations/src/app.css
+	"	29	20
+	^	29	21
+	.	29	20
+	+	1	0
+	+	8	0
+	+	15	28
+	+	15	19
+	+	16	0
+	+	21	0
+	+	20	0
+	+	1	0
+	+	1	0
+	+	15	28
+	+	1	0
+	+	40	1
+	+	1	0
+	+	40	0
+	+	31	0
+	+	15	15
+	+	20	15
+	+	20	0
+	+	30	0
+	+	20	0
+	+	16	20
+	+	20	20
+	+	16	22
+	+	20	22
+	+	15	25
+	+	20	0
+	+	19	25
+	+	33	10
+	+	39	0
+	+	32	0
+	+	23	18
+	+	26	0
+	+	29	23
+	+	24	19
+	+	29	20
+
+> ~/dev/aurelia/practice-au-animations/src/app.html
+	"	21	6
+	^	22	71
+	.	21	6
+	+	3	0
+	+	12	0
+	+	19	0
+	+	23	7
+	+	25	0
+	+	8	46
+	+	18	17
+	+	23	34
+	+	18	24
+	+	23	24
+	+	21	24
+	+	14	0
+	+	21	7
+	+	22	0
+	+	21	6
+
+> ~/dev/aurelia/findechoes/src/place-picker.html
+	"	4	10
+	.	3	0
+	+	2	0
+	+	4	0
+	+	3	0
+
+> ~/dev/aurelia/practice-au-animations/aurelia_project/aurelia.json
+	"	124	10
+	^	122	12
+	.	122	11
+	+	122	11
+
+> ~/dev/aurelia/practice-au-animations/tes
+	"	27	10
+	^	27	11
+	.	27	0
+	+	1	20
+	+	1	27
+	+	28	0
+	+	1	10
+	+	27	0
+
+> ~/dev/aurelia/practice-au-animations/src/tes
+	"	1	0
+
+> ~/dev/practice/:memory
+	"	6	1066
+
+> ~/dev/practice/hello_world.py
+	"	66	0
+
+> ~/dev/practice/npm_test/index.html
+	"	9	6
+	^	9	7
+	.	9	0
+	+	9	0
+
+> ~/dev/practice/npm_test/src/main.js
+	"	4	30
+	^	4	31
+	.	4	30
+	+	3	48
+	+	4	30
+
+> ~/dev/practice/npm_test/src/add.js
+	"	3	1
+	^	3	2
+	.	3	1
+	+	3	1
+
+> ~/dev/aurelia/findechoes/.git/COMMIT_EDITMSG
+	"	4	0
+
+> ~/dev/aurelia/findechoes/scripts/vendor-bundle.js
+	"	24544	0
+	^	2	11
+	.	4	0
+	+	2	10
+	+	4	0
+
+> ~/.gitconfig
+	"	26	8
+
+> ~/dev/aurelia/findechoes/.git/MERGE_MSG
+	"	1	0
+
+> ~/dev/aurelia/findechoes/.gitignore
+	"	5	1
+	^	5	12
+	.	5	0
+	+	4	0
+	+	6	0
+	+	6	0
+	+	5	0
+
+> ~/dev/aurelia/findechoes/src/web-api.js
+	"	3	0
+	^	6	3
+	.	6	0
+	+	3	0
+	+	7	0
+	+	6	0
+
+> ~/dev/aurelia/findechoes/src/spot-list.html
+	"	5	11
+
+> ~/dev/aurelia/findechoes/src/spot-list.js
+	"	1	0
+
+> ~/dev/aurelia/findechoes/src/app.html
+	"	4	2
+	^	17	57
+	.	18	0
+	+	16	59
+	+	17	56
+	+	17	0
+	+	16	0
+	+	17	0
+	+	16	0
+	+	18	0
+
+> ~/dev/aurelia/findechoes/src/style.css
+	"	14	9
+	^	10	25
+	.	10	9
+	+	27	0
+	+	27	14
+	+	27	1
+	+	27	0
+	+	27	0
+	+	27	0
+	+	18	0
+	+	17	0
+	+	12	0
+	+	21	12
+	+	1	6
+	+	6	0
+	+	10	20
+	+	11	0
+	+	9	11
+	+	12	0
+	+	10	9
+
+> ~/dev/aurelia/findechoes/src/load-google-maps.js
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/dev/aurelia/findechoes/aurelia_project/aurelia.json
+	"	139	23
+	^	139	24
+	.	139	23
+	+	148	0
+	+	149	0
+	+	137	11
+	+	138	18
+	+	140	0
+	+	140	11
+	+	140	19
+	+	140	20
+	+	140	0
+	+	141	0
+	+	140	11
+	+	140	52
+	+	140	0
+	+	140	19
+	+	140	0
+	+	139	23
+
+> ~/dev/aurelia/contact-manager/src/web-api.js
+	"	92	0
+	^	1	17
+	.	1	16
+	+	103	0
+	+	194	0
+	+	106	0
+	+	194	0
+	+	113	0
+	+	119	3
+	+	120	0
+	+	124	34
+	+	126	3
+	+	130	13
+	+	129	6
+	+	133	3
+	+	194	0
+	+	134	0
+	+	140	0
+	+	141	1
+	+	150	50
+	+	155	11
+	+	194	0
+	+	156	24
+	+	157	33
+	+	158	17
+	+	160	0
+	+	171	0
+	+	174	22
+	+	147	20
+	+	157	24
+	+	163	20
+	+	168	24
+	+	144	13
+	+	175	21
+	+	185	33
+	+	186	0
+	+	191	6
+	+	192	0
+	+	193	0
+	+	150	18
+	+	150	15
+	+	7	0
+	+	44	1
+	+	40	0
+	+	9	0
+	+	47	22
+	+	51	35
+	+	58	11
+	+	99	0
+	+	61	8
+	+	62	6
+	+	63	0
+	+	99	0
+	+	61	0
+	+	98	0
+	+	99	0
+	+	72	50
+	+	76	0
+	+	98	0
+	+	71	42
+	+	79	28
+	+	98	0
+	+	98	0
+	+	98	17
+	+	98	0
+	+	98	0
+	+	98	0
+	+	98	16
+	+	13	14
+	+	41	24
+	+	69	0
+	+	69	0
+	+	92	0
+	+	1	16
+
+> ~/dev/aurelia/findechoes/src/app.
+	"	1	0
+
+> ~/.pip/pip.conf
+	"	2	13
+	^	2	14
+	.	2	13
+	+	2	13
+
+> ~/.pip/pip.log
+	"	1	0
+
+> ~/dev/aurelia/findechoes/node_modules/asap/package.json
+	"	109	17
+
+> ~/dev/aurelia/findechoes/node_modules/asap/raw.js
+	"	51	0
+
+> ~/dev/aurelia/findechoes/node_modules/promise/package.json
+	"	53	6
+
+> ~/dev/aurelia/findechoes/node_modules/google-maps-api/package.json
+	"	59	3
+
+> ~/dev/aurelia/findechoes/package.json
+	"	17	5
+
+> ~/dev/aurelia/placepicker/config.js
+	"	201	5
+
+> ~/dev/aurelia/placepicker/package.json
+	"	74	0
+
+> ~/dev/aurelia/placepicker/src/place-picker.html
+	"	2	0
+
+> ~/dev/aurelia/findechoes/src/no-spot.html
+	"	1	0
+
+> ~/dev/aurelia/findechoes/src/no-spot.js
+	"	1	0
+
+> ~/dev/practice/sample/index.html
+	"	1	0
+	^	14	29
+	.	14	28
+	+	14	28
+
+> ~/dev/practice/sample/app.js
+	"	7	16
+	^	7	17
+	.	7	16
+	+	2	22
+	+	1	22
+	+	7	16
+
+> ~/dev/practice/sample/config.js
+	"	4	2
+	^	2	13
+	.	2	13
+	+	2	13
+
+> ~/dev/practice/sample/app.js.map
+	"	1	13098
+
+> ~/dev/practice/sample/bundle.js
+	"	47	14
+
+> ~/dev/practice/spinner/package.json
+	"	10	0
+	^	16	1
+	.	16	0
+	+	16	0
+
+> ~/dev/practice/sample/package.json
+	"	8	0
+
+> ~/dev/practice/sample/script/main.js
+	"	1	0
+
+> ~/dev/practice/sample/index.shtml
+	"	14	2
+	^	17	7
+	.	17	0
+	+	17	0
+
+> scr/main.js
+	"	1	0
+	^	5	7
+	.	5	6
+	+	8	2
+	+	8	0
+	+	2	0
+	+	5	6
+
+> ~/dev/practice/sample/src/main.js
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/dev/aurelia/findechoes/src/no-selection.html
+	"	2	20
+	^	2	21
+	.	2	20
+	+	3	23
+	+	5	0
+	+	2	20
+
+> ~/dev/aurelia/findechoes/src/no-selection.js
+	"	3	27
+	^	3	27
+	.	3	0
+	+	5	0
+	+	1	18
+	+	3	0
+
+> ~/dev/aurelia/findechoes/scripts/app-bundle.js
+	"	48	0
+
+> ~/dev/aurelia/contact-manager/src/contact-detail.js
+	"	30	42
+	^	1	43
+	.	1	42
+	+	88	0
+	+	88	0
+	+	88	0
+	+	88	4
+	+	88	61
+	+	88	2
+	+	88	2
+	+	88	57
+	+	88	0
+	+	88	15
+	+	88	0
+	+	88	0
+	+	57	0
+	+	64	59
+	+	67	0
+	+	71	0
+	+	79	0
+	+	87	0
+	+	50	0
+	+	50	35
+	+	50	0
+	+	50	0
+	+	50	86
+	+	50	0
+	+	50	56
+	+	50	6
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	14
+	+	50	11
+	+	50	63
+	+	1	55
+	+	50	56
+	+	50	50
+	+	50	20
+	+	50	16
+	+	50	54
+	+	50	55
+	+	50	87
+	+	50	0
+	+	50	56
+	+	50	0
+	+	2	0
+	+	47	14
+	+	45	19
+	+	1	42
+
+> ~/dev/aurelia/contact-manager/src/contact-detail.html
+	"	4	41
+	^	31	22
+	.	31	21
+	+	73	111
+	+	43	0
+	+	43	12
+	+	43	0
+	+	43	8
+	+	43	0
+	+	43	0
+	+	43	0
+	+	2	0
+	+	25	100
+	+	43	0
+	+	29	30
+	+	32	111
+	+	34	0
+	+	43	0
+	+	35	0
+	+	42	0
+	+	32	27
+	+	31	21
+
+> ~/dev/aurelia/contact-manager/src/contact-list.js
+	"	24	2
+	^	17	7
+	.	17	6
+	+	39	73
+	+	46	1
+	+	47	0
+	+	6	37
+	+	18	0
+	+	22	0
+	+	28	0
+	+	1	56
+	+	3	44
+	+	6	50
+	+	8	20
+	+	10	0
+	+	15	55
+	+	16	39
+	+	17	6
+
+> ~/dev/aurelia/contact-manager/src/contact-list.html
+	"	4	98
+	^	4	99
+	.	4	98
+	+	16	57
+	+	24	0
+	+	5	110
+	+	12	0
+	+	5	86
+	+	4	98
