@@ -22,7 +22,6 @@ export PS1='\[\033[1;32m\]\[\033[00m\]\[\033[1;34m\]\w\[\033[1;31m\]$(__git_ps1)
 
 ### PATH ###
 ####################################
-
 # homebrew
 export PATH=/usr/local/sbin:$PATH
 
@@ -38,9 +37,6 @@ fi
 
 # diff-highlight for Git
 export PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
-
-# nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 
 ### Command History ###
@@ -73,6 +69,9 @@ fi
 if [ -d $(pyenv root) ]; then
 	eval "$(pyenv virtualenv-init -)"
 fi
+
+# Java
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
 
 if [ -f ~/.bashrc ]; then

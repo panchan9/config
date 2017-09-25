@@ -1,6 +1,6 @@
 [user]
 	name = pampers
-	email = yoshimasa.hamada@mail.rakuten.com
+	email = pepperoni9@gmail.com
 [core]
 	#autocrlf = true
 	editor = vim
@@ -12,7 +12,7 @@
 [difftool "WinMerge"]
         #cmd = 'C:/Program Files/WinMerge/WinMergeU.exe' -r -u \"$LOCAL\" \"$REMOTE\"
 [push]
-	default = current
+	default = simple
 [colort]
 	ui = auto
 [color]

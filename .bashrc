@@ -20,6 +20,12 @@ alias gzip='gzip -v'
 alias gunzip='gunzip -v'
 alias nku='nkf --overwrite -w8'
 alias grep='grep -E --color=auto'
+if [[ -x `which colordiff` ]]; then
+  alias diff='colordiff -u'
+else
+  alias diff='diff -u'
+fi
+export LESS='-R'
 
 
 # User specific aliases and functions

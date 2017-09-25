@@ -15,9 +15,65 @@ if v:progname =~? "evim"
   finish
 endif
 
+"dein Scripts-----------------------------
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
-set nocompatible
+if &compatible
+  set nocompatible               " Be iMproved
+endif
+
+" Required:
+set runtimepath+=/Users/pampers/.vim/dein/repos/github.com/Shougo/dein.vim
+
+" Required:
+if dein#load_state('/Users/pampers/.vim/dein')
+  call dein#begin('/Users/pampers/.vim/dein')
+
+  " Let dein manage dein
+  " Required:
+  call dein#add('/Users/pampers/.vim/dein/repos/github.com/Shougo/dein.vim')
+
+  " Add or remove your plugins here:
+  call dein#add('Shougo/neosnippet.vim')
+  call dein#add('Shougo/neosnippet-snippets')
+
+  "================= plug in =================
+  call dein#add('tpope/vim-commentary')
+  call dein#add('tpope/vim-surround')
+  call dein#add('kana/vim-textobj-user')
+  call dein#add('kana/vim-textobj-entire')
+  call dein#add('davidhalter/jedi-vim')
+  call dein#add('Flake8-vim')
+  call dein#add('hynek/vim-python-pep8-indent')
+  call dein#add('scrooloose/syntastic')
+  call dein#add('tpope/vim-abolish')
+  call dein#add('nathanaelkane/vim-indent-guides')
+  " For ES6
+  call dein#add('othree/yajs.vim')
+
+  "================= plug in =================
+
+
+  " You can specify revision/branch/tag.
+  call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
+
+  " Required:
+  call dein#end()
+  call dein#save_state()
+endif
+
+" Required:
+filetype plugin indent on
+syntax enable
+
+" If you want to install not installed plugins on startup.
+if dein#check_install()
+  call dein#install()
+endif
+
+"End dein Scripts-------------------------
+
+
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -213,49 +269,6 @@ function! QuickfixFilenames()
   return join(map(values(buffer_numbers), 'fnameescape(v:val)'))
 endfunction
 
-"------------------------------------
-" NeoBundle
-"------------------------------------
-if has('vim_starting')
-    set nocompatible        " Be iMproved
-    set runtimepath+=~/.vim/bundle/neobundle.vim/
-endif
-
-" Required:
-call neobundle#rc(expand('~/.vim/bundle/'))
-
-" Let NeoBundle manage NeoBundle
-" Required:
-NeoBundleFetch 'Shougo/neobundle.vim'
-
-" My Bundles here:
-NeoBundle 'tpope/vim-commentary'
-NeoBundle 'tpope/vim-surround'
-NeoBundle 'kana/vim-textobj-user'
-NeoBundle 'kana/vim-textobj-entire'
-NeoBundle 'davidhalter/jedi-vim'
-NeoBundle 'Flake8-vim'
-NeoBundle 'hynek/vim-python-pep8-indent'
-NeoBundle 'scrooloose/syntastic'
-NeoBundle 'tpope/vim-abolish'
-
-" For ES6
-NeoBundle 'othree/yajs.vim'
-
-" vim-inent-guides
-colorscheme default
-NeoBundle "nathanaelkane/vim-indent-guides"
-let s:hooks = neobundle#get_hooks("vim-indent-guides")
-function! s:hooks.on_source(bundle)
-  " let g:indent_guides_auto_colors = 0
-  let g:indent_guides_guide_size = 1
-  let g:indent_guides_start_level = 2
-  let g:indent_guides_enable_on_vim_startup = 1
-  hi IndentGuidesOdd  guibg=red   ctermbg=236
-  hi IndentGuidesEven guibg=green ctermbg=236
-  IndentGuidesEnable
-endfunction
-
 " PyFlake
 let g:PyFlakeOnWrite = 1
 let g:PyFlakeCheckers = 'pep8,mccabe,pyflakes'
@@ -263,12 +276,20 @@ let g:PyFlakeDefaultComplexity = 10
 
 " syntastic
 let g:syntastic_python_checkers = ['pyflakes', 'pep8']
-" Required:
-filetype plugin indent on
-
-" If there are uninstalled bundles found on startup,
-" this will conveniently prompt you to install them.
-NeoBundleCheck
 
 " Remove space at the end of line
 autocmd BufWritePre * :%s/\s\+$//ge
+
+
+" vim-inent-guides
+colorscheme default
+" let s:hooks = neobundle#get_hooks("vim-indent-guides")
+" function! s:hooks.on_source(bundle)
+  " let g:indent_guides_auto_colors = 0
+  let g:indent_guides_guide_size = 1
+  let g:indent_guides_start_level = 2
+  let g:indent_guides_enable_on_vim_startup = 1
+"  hi IndentGuidesOdd  guibg=red   ctermbg=236
+"  hi IndentGuidesEven guibg=green ctermbg=236
+"  IndentGuidesEnable
+" endfunction
