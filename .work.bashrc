@@ -58,7 +58,7 @@ fi
 
 # for Ansible command
 if [ ! -d ~/ansible-common/inv ]; then
-	mkdif -pv ~/ansible-common/inv
+	mkdir -pv ~/ansible-common/inv
 fi
 
 if [ ! -L ~/ansible-common/inv/prod-hosts ]; then
