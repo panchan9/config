@@ -4,13 +4,14 @@
 [core]
 	#autocrlf = true
 	editor = vim
+	excludesfile = /Users/pampers/.gitignore_global
 	#whitespace = cr-at-eol
 	#precomposeunicode = true
 	#quotepath = off
 [diff]
-	#tool = WinMerge
-[difftool "WinMerge"]
-        #cmd = 'C:/Program Files/WinMerge/WinMergeU.exe' -r -u \"$LOCAL\" \"$REMOTE\"
+	tool = default-difftool
+[difftool "default-difftool"]
+        cmd = code --wait --diff $LOCAL $REMOTE
 [push]
 	default = simple
 [colort]
@@ -23,14 +24,15 @@
 	cm = commit -m
 	st = status
 	br = branch
-	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	lg = log --pretty=format:\"%C(yellow)%h %C(green)%cd %C(reset)%s %C(auto)%d %C(cyan)[%an]\" --graph --date=format:%c
 	ld = log --decorate
+	ls = log --decorate --name-status
 	ll = log --pretty=oneline --abbrev-commit
 	dn = diff --name-only
-	dt = difftool --dir-diff
-	dl = difftool --dir-diff master
-	dr = difftool --dir-diff origin/master
-	dd = difftool --dir-diff origin/master...origin/
+	dt = difftool
+	dl = difftool master
+	dr = difftool origin/master
+	dd = difftool origin/master...origin/
 	pr = pull --rebase
 	td = for-each-ref --sort=-taggerdate --format='%(taggerdate:iso8601) || %(tag) || %(taggername) || %(subject)' refs/tags
 	fp = fetch --prune
@@ -41,3 +43,15 @@
 	#cmd = 'c:/Program Files/WinMerge/WinMergeU.exe' \"$LOCAL\" \"$REMOTE\"
 [pull]
 	rebase = true
+[ghq]
+	root = /Users/pampers/dev/src
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/pampers/.stCommitMsg
+[includeIf "gitdir:/Users/pampers/dev/src/github.com/voicyworld/"]
+	path = ~/.gitconfig-voicy

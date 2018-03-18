@@ -1,69 +1,49 @@
-tap 'caskroom/cask'
-tap 'homebrew/apache'
-tap 'homebrew/bundle'
-tap 'homebrew/core'
-tap 'homebrew/dupes'
-tap 'homebrew/python'
-tap 'homebrew/services'
-tap 'homebrew/versions'
-tap 'supermomonga/splhack'
-cask 'java'
-brew 'apache-spark'
-brew 'autoconf'
-brew 'gmp@4'
-brew 'isl@0.12'
-brew 'cloog'
-brew 'coreutils'
-brew 'cscope'
-brew 'ctags'
-brew 'libpng'
-brew 'freetype'
-brew 'freexl'
-brew 'gmp'
-brew 'mpfr'
-brew 'readline'
-brew 'gawk'
-brew 'isl'
-brew 'libmpc'
-brew 'gcc'
-brew 'geos'
-brew 'giflib'
-brew 'git'
-brew 'jpeg'
-brew 'json-c'
-brew 'libtiff'
-brew 'lzlib'
-brew 'proj'
-brew 'libgeotiff'
-brew 'liblwgeom'
-brew 'gdbm'
-brew 'openssl'
-brew 'sqlite'
-brew 'python'
-brew 'libxml2'
-brew 'libspatialite'
-brew 'pcre'
-brew 'gdal'
-brew 'gnu-sed'
-brew 'lua'
-brew 'mas'
-brew 'mysql'
-brew 'neo4j'
-brew 'nginx', restart_service: true
-brew 'nkf'
-brew 'nodebrew'
-brew 'postgresql', restart_service: true
-brew 'tree'
-brew 'xz'
-brew 'homebrew/dupes/zlib'
-brew 'homebrew/apache/httpd22'
-mas 'Janetter', id: 478844335
-mas 'iPhoto', id: 408981381
-mas 'GarageBand', id: 682658836
-mas 'iMovie', id: 408981434
-mas 'Xcode', id: 497799835
-mas 'Pages', id: 409201541
-mas 'Slack', id: 803453959
-mas 'LINE', id: 539883307
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
+brew "colordiff"
+brew "coreutils"
+brew "dep"
+brew "diffutils"
+brew "ffmpeg", args: ["with-libvorbis", "with-sdl2", "with-theora"]
+brew "findutils", args: ["with-default-names"]
+brew "gawk"
+brew "gcc"
+brew "ghq"
+brew "git"
+brew "gnu-sed", args: ["with-default-names"]
+brew "gnu-tar", args: ["with-default-names"]
+brew "go-delve/delve/delve"
+brew "grep", args: ["with-default-names"]
+brew "gzip"
+brew "httpie"
+brew "jq"
+brew "kubernetes-helm"
+brew "kyoshidajp/ghkw/ghkw"
+brew "maven"
+brew "mongodb"
+brew "mysql"
+brew "nkf"
+brew "peco"
+brew "swagger-codegen"
+brew "tree"
+brew "vim", args: ["with-python3"]
+cask "appcleaner"
+cask "chatwork"
+cask "discord"
+cask "docker"
+cask "dropbox"
+cask "firefox"
+cask "google-chrome"
+cask "google-japanese-ime"
+cask "java"
+cask "karabiner-elements" cask ""
+cask "kindle"
+cask "kobo"
+cask "mysqlworkbench"
+cask "postman"
+cask "sequel-pro"
+cask "slack"
+cask "sourcetree"
+cask "spectacle"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "zeplin"
+cask "zoomus"
